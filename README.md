@@ -49,15 +49,6 @@ Results-driven **Senior QA Automation Engineer / SDET** with deep expertise in a
 
 ---
 
-### 📊 GitHub Activity & Highlights
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=salmanjc015-creator&show_icons=true&theme=radical&hide_border=true" alt="Salman's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salmanjc015-creator&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
 ### 🎯 Core Engineering Principles & SDET Philosophy
 
 1. **Zero Flakiness Culture:** Tests must only fail when there is a genuine product defect. Dynamic synchronization and condition polling always supersede arbitrary timeouts.
