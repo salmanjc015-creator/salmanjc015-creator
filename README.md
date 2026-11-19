@@ -26,27 +26,26 @@ Results-driven **Senior QA Automation Engineer / SDET** with deep expertise in a
 
 ---
 
-### 💼 Featured Architecture & Real-World Projects
+### 🏆 Featured Automation Project
 
-#### 1. Enterprise Event & Fleet Dispatch Automation Framework
-> **Tech Stack:** Playwright · TypeScript · Playwright-BDD · Azure AD SSO · Azure DevOps · Allure
-*Architected and maintained an end-to-end BDD automation framework for a large-scale, high-concurrency emergency dispatch and roadside fleet management platform.*
+#### [🎭 Enterprise Playwright + BDD Cucumber Automation Framework](https://github.com/salmanjc015-creator/playwright-bdd-automation)
+> An enterprise-grade UI & REST API test automation framework demonstrating modern QA architecture, production session persistence, network fault injection, and accessibility auditing.
 
-- **Eliminated SPA Flakiness:** Replaced arbitrary sleeps (`waitForTimeout`) with custom settle handlers that monitor React loading overlays (`loading-wrapper`, dynamic spin masks) and DOM readiness, achieving a **99%+ test pass rate**.
-- **Container-Scoped Dialog Handling:** Solved complex pointer-event interception bugs where nested draggable React modals (e.g. Schedule Event, Location Verification) were blocked by background forms.
-- **SSO Session Caching Architecture:** Designed automated authentication state caching (`storageState`) for Azure AD SSO across parallel test workers, **slashing test cycle runtimes by ~40%**.
-- **Declarative BDD Scenario Refactoring:** Led the migration from fragile 14-step imperative UI scripts to clean, 3-step declarative business scenarios (`Given-When-Then`), dramatically improving scenario readability for business stakeholders.
-- **Atomic React Component Setters:** Engineered resilient helpers for non-standard React Datepicker / Timepicker controls using keyboard navigation and input masking rather than brittle coordinate clicks.
+[![Playwright](https://img.shields.io/badge/Playwright-v1.50+-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Cucumber BDD](https://img.shields.io/badge/Cucumber_BDD-Gherkin-23D96C?logo=cucumber&logoColor=white)](https://cucumber.io/)
+[![WCAG 2.1 AA](https://img.shields.io/badge/Accessibility-Axe_Core_WCAG_2.1_AA-7B1FA2)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://github.com/salmanjc015-creator/playwright-bdd-automation/blob/master/Dockerfile)
+[![Live Report](https://img.shields.io/badge/Live_Report-GitHub_Pages-brightgreen?logo=github)](https://salmanjc015-creator.github.io/playwright-bdd-automation/)
 
-#### 2. Playwright TypeScript BDD Enterprise Starter (Public Showcase)
-> **Tech Stack:** Playwright · Playwright-BDD · TypeScript · GitHub Actions · Allure Reporting
-*A production-ready reference architecture showcasing best practices for modern web automation.*
+* **Key Architectural Highlights**:
+  * ⚡ **50%+ Runtime Reduction**: Playwright `storageState` session caching to eliminate redundant UI logins.
+  * 🌐 **Full-Stack Coverage**: 22 automated BDD scenarios across E2E UI flows, native REST APIs (`APIRequestContext`), and hybrid contract validation.
+  * ♿ **Automated WCAG 2.1 AA Audits**: Integrated `@axe-core/playwright` into the BDD lifecycle.
+  * 🔀 **Network Fault Injection**: Intercepted browser routes (`page.route()`) to simulate HTTP 500 server crashes and mock promotional responses.
+  * 🐳 **Containerized & CI/CD Ready**: Dockerized with official Microsoft Playwright images and automated GitHub Actions test reporting.
 
-- Modular Page Object Model with decoupled locator dictionaries and business action delegates.
-- Dynamic test data seeding and schema verification.
-- Cross-browser test matrix execution (Chromium, Firefox, WebKit, Edge) via GitHub Actions CI pipeline.
-- Rich failure artifact capture: Playwright Trace Viewer, step-level screenshots, and execution video logs.
-
+👉 **[View Live Interactive Report](https://salmanjc015-creator.github.io/playwright-bdd-automation/)** | **[Explore the Codebase](https://github.com/salmanjc015-creator/playwright-bdd-automation)**
 ---
 
 ### 🎯 Core Engineering Principles & SDET Philosophy
